@@ -21,16 +21,4 @@
         </config-file>
         <source-file src="src/android/MegaduckGestures.java" target-dir="src/ru/megaduck/plugin/gestures" />
     </platform>
-
-    <!-- ios -->
-    <!--<platform name="ios">
-        <config-file target="config.xml" parent="/*">
-            <feature name="Alert">
-                <param name="ios-package" value="Alert" />
-            </feature>
-        </config-file>
-        <header-file src="src/ios/Alert.h" />
-        <source-file src="src/ios/Alert.m" />
-    </platform>-->
-
 </plugin>
