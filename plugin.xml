@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="ru.megaduck.plugin.gestures" version="0.0.1">
+
+    <name>Megaduck gestures</name>
+    <description>A Cordova plugin for handling gestures</description>
+
+    <engines>
+        <engine name="cordova" version=">=3.6.0" />
+    </engines>
+
+    <js-module src="www/megaduck_gestures.js" name="MegaduckGestures">
+        <clobbers target="MegaduckGestures" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="MegaduckGestures">
+                <param name="android-package" value="ru.megaduck.plugin.gestures.MegaduckGestures" />
+            </feature>
+        </config-file>
+        <source-file src="src/android/MegaduckGestures.java" target-dir="src/ru/megaduck/plugin/gestures" />
+    </platform>
+
+    <!-- ios -->
+    <!--<platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="Alert">
+                <param name="ios-package" value="Alert" />
+            </feature>
+        </config-file>
+        <header-file src="src/ios/Alert.h" />
+        <source-file src="src/ios/Alert.m" />
+    </platform>-->
+
+</plugin>
