@@ -1,0 +1,21 @@
+{
+    "version": "0.0.1",
+    "name": "ru.megaduck.plugin.gestures",
+    "cordova_name": "Megaduck gestures",
+    "description": "A Cordova plugin for handling gestures",
+    "license": "Apache 2.0",
+    "repo": "https://github.com/megaduck/cordova-android-gestures.git",
+    "issue": "",
+    "keywords": [
+        "cordova",
+        "android",
+        "gestures",
+        "iframe",
+        "plugin"
+    ],
+    "platforms": [
+        "android",
+    ],
+    "engines": [],
+    "englishdoc": ""
+}
