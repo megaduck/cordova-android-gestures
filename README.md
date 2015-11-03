@@ -47,11 +47,6 @@ Wherever you need to handle gestures on Android devices.
                 alert('It`s veeeeery long tap!');
                 break;
             }
-            case 'longTap':{
-                //do some goodness...
-                alert('It`s veeeeery long tap!');
-                break;
-            }
             case 'singleTap':{
                 //do some goodness...
                 alert('Ok, single tap/onclick detected!');
